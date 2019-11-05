@@ -316,7 +316,8 @@ export default class ModalDropdown extends Component {
         highlighted && dropdownTextHighlightStyle
       ]}
       >
-        {rowData}
+        {/* custom logic for Prime */}
+        {rowData.name}
       </Text>) :
       renderRow(rowData, rowID, highlighted);
     const preservedProps = {
